@@ -42,3 +42,6 @@ def preprocessing(data):
     data['processedText'] = processedLines
     data['processedTextAsString'] = processedAsString
     data['stopWordCount'] = stopWordCount
+
+def vectorize():
+    # using TDIDF vectorizer 
